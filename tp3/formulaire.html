@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>Mon première formulair</title>
+
+  </head>
+  <body>
+    <h1> Votre Avis Nous Intéresse </h1>
+<main>
+<div>
+      <table>
+        <tr>
+          <td><form >
+            <fieldset>
+              <legend>information personnel</legend>
+              <ol>
+            <li>  <label for="normal">Nom </label>
+              <input type="text" name="" value=""></li>
+              <li><label for="meeting-time"> Date de nissence </label>
+              <input type="datetime-local" id="meeting-time" name="meeting-time"
+              value="yyyy-mm-dd"min="yyyy-mm-dd"max="yyyy-mm-dd"></li>
+              <li><label for="url">Site</label>
+              <input type="url" id="url" name="url"placeholder="http://monsite.com"></li>
+              <li>  <label for="normal">emploi</label>
+                <input type="text" name="" value=""></li>
+                <li><dt><label for="url">Approx.Salaire annuel </label></dt>
+                <input type="url" id="url" name="url"placeholder="$"></li>
+            </ol>
+            </fieldset>
+          </form></td>
+          <td><form >
+            <fieldset>
+              <legend>information contact  </legend>
+              <ol>
+            <li><dt>  <label for="normal"> Addresse Ligne 1 </label></dt>
+              <input type="text" name="" value=""></li>
+              <li><dt>  <label for="normal"> Addresse Ligne 2 </label></dt>
+                <input type="text" name="" value=""></li>
+                <li>  <label for="normal"> Pays </label>
+                  <input type="text" name="" value=""></li>
+              <li><label for="tel">Tél</label>
+                <input type="tel" id="tel" name="tel"placeholder="eg:+213 67..." > </li>
+                <li><label for="email">Courriel</label>
+                  <input type="email" id="email" name="email" > </li>
+            </ol>
+            </fieldset>
+          </form>
+          </td>
+        </tr>
+      </table>
+</div>
+</main>
+<h1> Préférences </h1>
+<label for="couleur"> choisir une couleur </label>
+<input type="color" id="couleur" name="couleur" value="#10002b" > <br>
+<label for="range">sur une échelle de 1 à 10 , quelle est votre degré d'enthousiasme pour HTML5</label>
+<input min="0" max="10" step="0.5" type="range"id="range" name="range" value="#e3f9f6"><br>
+<input type="submit" name="Envoyer" value="Envoyer">
+  </body>
